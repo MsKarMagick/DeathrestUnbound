@@ -1,0 +1,39 @@
+<ModMetaData>
+    <name>Deathrest Unbound</name>
+    <packageId>MsKarMagick.deathrestunbound</packageId>
+    <author>MsKarMagick</author>
+    <url>https://github.com/MsKarMagick/DeathrestUnbound</url>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies/>
+    <loadBefore/>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>ludeon.rimworld.biotech</li>
+    </loadAfter>
+    <incompatibleWith/>
+    <modVersion>1.0.0</modVersion>
+    <description>
+        This mod removes the permanent binding mechanic from Deathrest Caskets, allowing pawns to use them even if they were previously used by a different pawn.
+        No more having 10 different deathrest areas, or rebuilding a casket every time someone needs to use it.
+
+        Features:
+        - Lets players manually unbind pawns from Deathrest Caskets.
+
+        Compatibility:
+        - Tested on RimWorld version 1.5.
+        - Compatible with Vanilla Sanguophages Expanded as it doesn't edit the base
+
+        Incompatibilities:
+        - Other mods that do the same. If you find one that does? It probably does it better than this, use that instead. But I couldn't find any mod like this, hence why I'm publishing my first mod.
+
+        Load Order:
+        - Ensure this mod is loaded after Biotech Harmony.
+
+        Special Thanks:
+        - To the modders who've documented their work to make it easier on new modders.
+		    - Harmony devs for making this way easier than it otherwise would have been, and honestly just possible, period.
+        - ChatGPT for enduring the onslaught of verbal abuse I sent its way while forcing it to try to remember things I sent 1500 messages ago.
+    </description>
+</ModMetaData>
